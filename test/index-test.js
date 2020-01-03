@@ -33,4 +33,4 @@ describe( 'the local repository', () => {
     chai.assert.isDirectory( './my-repository/.git/logs/refs/remotes', 'no record of pushing to a remote was found. Follow the instructions on GitHub to connect and push to a new remote repository' );
   } )
 
-} )
+} 
